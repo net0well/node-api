@@ -1,0 +1,28 @@
+{
+  "name": "simple-node-api",
+  "version": "1.0.0",
+  "description": "API simples feita com o objetivo de praticar Node.js",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/net0well/node-api.git"
+  },
+  "author": "Wellington Neto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/net0well/node-api"
+  },
+  "homepage": "https://github.com/net0well/node-api",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
